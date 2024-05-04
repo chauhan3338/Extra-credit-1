@@ -14,6 +14,7 @@ public class SortAnagram {
         }
         return sb.toString();
     }
+
     public static List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<>();
         List<String> keys = new ArrayList<>();
